@@ -21,7 +21,7 @@ export function ModelSection() {
         padding: "var(--section-y) var(--space-8)",
       }}
     >
-      <div style={{ maxWidth: "var(--container-xl)", margin: "0 auto" }}>
+      <div style={{ maxWidth: "var(--container-page)", margin: "0 auto" }}>
         <div style={{ maxWidth: "680px", marginBottom: "var(--space-9)" }}>
           <Eyebrow tone="onDark" rule style={{ marginBottom: "var(--space-4)" }}>
             Modelo integral

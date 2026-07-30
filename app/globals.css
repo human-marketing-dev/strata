@@ -162,6 +162,7 @@
   --container-md: 960px;
   --container-lg: 1200px;
   --container-xl: 1440px;
+  --container-page: 1450px; /* unified section content width */
   --gutter:       var(--space-6);
   --section-y:    var(--space-11);
 

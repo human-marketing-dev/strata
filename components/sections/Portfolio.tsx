@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
 export function Portfolio() {
   return (
     <section id="portafolio" style={{ background: "var(--bg-page)", padding: "var(--section-y) var(--space-8)" }}>
-      <div style={{ maxWidth: "var(--container-xl)", margin: "0 auto" }}>
+      <div style={{ maxWidth: "var(--container-page)", margin: "0 auto" }}>
         <div
           style={{
             display: "flex",
@@ -75,7 +75,7 @@ export function Portfolio() {
             Ver todos <Icon name="arrow-up-right" size={15} color="var(--text-brand)" />
           </a>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "var(--space-5)" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))", gap: "var(--space-5)" }}>
           {PROJECTS.map((p) => (
             <Card key={p.name} media={p.img} mediaAlt={p.name} mediaHeight={240} interactive href="#contacto">
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "12px" }}>

@@ -17,7 +17,7 @@ export function SiteFooter() {
         padding: "var(--space-10) var(--space-8) var(--space-6)",
       }}
     >
-      <div style={{ maxWidth: "var(--container-xl)", margin: "0 auto" }}>
+      <div style={{ maxWidth: "var(--container-page)", margin: "0 auto" }}>
         <div
           style={{
             display: "grid",
@@ -30,9 +30,9 @@ export function SiteFooter() {
           <div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/logos/strata-logo-white.png"
+              src="/assets/logos/strata-horizontal-white.png"
               alt="STRATA Desarrollos"
-              style={{ height: "92px", width: "auto", marginBottom: "var(--space-5)", marginLeft: "-6px" }}
+              style={{ height: "48px", width: "auto", marginBottom: "var(--space-5)" }}
             />
             <p
               style={{

@@ -29,7 +29,9 @@ export function Hero() {
           background: "linear-gradient(180deg, rgba(16,32,24,0.55) 0%, rgba(16,32,24,0.15) 38%, rgba(16,32,24,0.82) 100%)",
         }}
       />
-      <div style={{ position: "relative", padding: "0 var(--space-8) var(--space-10)", maxWidth: "1000px" }}>
+      <div style={{ position: "relative", width: "100%", padding: "0 var(--space-8) var(--space-10)" }}>
+        <div style={{ maxWidth: "var(--container-page)", margin: "0 auto" }}>
+        <div style={{ maxWidth: "1000px" }}>
         <Eyebrow tone="onDark" rule style={{ marginBottom: "var(--space-5)" }}>
           Desarrolladora · Fundada por arquitectos
         </Eyebrow>
@@ -74,6 +76,8 @@ export function Hero() {
           >
             As we evolve, spaces should too
           </Button>
+        </div>
+        </div>
         </div>
       </div>
     </section>

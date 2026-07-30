@@ -20,7 +20,7 @@ export function ContactCTA() {
     <section id="contacto" style={{ background: "var(--bg-page)", padding: "var(--section-y) var(--space-8)" }}>
       <div
         style={{
-          maxWidth: "var(--container-lg)",
+          maxWidth: "var(--container-page)",
           margin: "0 auto",
           display: "grid",
           gridTemplateColumns: "minmax(0, 1.1fr) minmax(0, 0.9fr)",
